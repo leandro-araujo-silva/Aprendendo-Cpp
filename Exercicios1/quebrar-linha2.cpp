@@ -2,6 +2,8 @@
 
 int main () {
   std::cout << "Ola, mundo!\n";
-  return 0;
-  
+
+  system("pause");  // Para parar o documento
+
+  return 0; 
 }

@@ -1,4 +1,4 @@
-<h1 style="text-align: center; font-weight: bold;">Linguagem C</h1>
+<h1 style="text-align: center; font-weight: bold;">Linguagem C++</h1>
 
 ## Demonstração 📸
 

@@ -3,7 +3,7 @@
 ## Demonstração 📸
 
 <div align="center" >
-  <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C logomarca" height="425">
+  <img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C++ logomarca" height="425">
 </div>
 
 ---

@@ -5,7 +5,7 @@ using namespace std;
 int main () {
   float x, y;
 
-  cout << "Dada a funcao f(x) = x2 - 3x + 5, digite um valor de x: ";
+  cout << "Dada a funcao f(x) = x^2 - 3x + 5,\ndigite um valor de x: ";
   cin >> x;
 
   y = (x * x - 3 * x + 5);

@@ -21,7 +21,7 @@ int main() {
 
     cout << "Deseja continuar (S/N): ";
     cin >> novamente;
-    getchar();
+    //getchar();
   } while (novamente == 's' || novamente == 'S');
 
   return 0;

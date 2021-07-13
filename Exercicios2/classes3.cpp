@@ -10,39 +10,22 @@ class carro{
   public:
   
   //Construtor
-  carro(int a=0, float v=-1, float k = -1) {
-    ano = a;
-    valor = v;
-    km = k;
-  }
+  carro(int a, float v, float k);
 
   // ano
-  void setano(int a) {
-    ano = a;
-    //this->ano = ano;
-  }
+  void setano(int a);
 
-  int getano() {
-    return ano;
-  }
+  int getano();
   
   // Valor
-  void setvalor(float v) {
-    valor = v;
-  }
+  void setvalor(float v);
 
-  float getvalor() {
-    return valor;
-  }
+  float getvalor();
 
   // km
-  void setkm(float k) {
-    km = k;
-  }
+  void setkm(float k);
 
-  float getkm() {
-    return km;
-  }
+  float getkm();
 
 };
 
@@ -85,3 +68,38 @@ int main() {
 
   return 0;
 }
+
+
+carro::carro(int a=0, float v=-1, float k = -1) {
+    ano = a;
+    valor = v;
+    km = k;
+  }
+
+  // ano
+  void carro::setano(int a) {
+    ano = a;
+    //this->ano = ano;
+  }
+
+  int carro::getano() {
+    return ano;
+  }
+  
+  // Valor
+  void carro::setvalor(float v) {
+    valor = v;
+  }
+
+  float carro::getvalor() {
+    return valor;
+  }
+
+  // km
+  void carro::setkm(float k) {
+    km = k;
+  }
+
+  float carro::getkm() {
+    return km;
+  }

@@ -50,7 +50,7 @@ int main() {
   vicosa.setpop(79388);
   vicosa.setterritorio(299418);
   vicosa.setpib(20832.20);
-  cout << "Vicosa:\n";
+  cout << "Vicosa:" << endl;
   cout << "Populacao: " << vicosa.getpop() << endl;
   cout << "Area territorial: " << vicosa.getterritorio() << " km2" << endl;
   cout << "PIB per capita: R$ " << vicosa.getpib() << endl << endl;
